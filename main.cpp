@@ -69,7 +69,7 @@ public:
         int y = startY;
         
         cout<<roomCount_<<endl;
-        for(int i=0;i<roomCount_;i++){
+        for(int i=0;i<roomCount_;i++){//This is the broken for loop
             int pDir;
             int dir = rand()%((3 - 0) + 1) + 0;
             if(x==0 && dir == 3){
